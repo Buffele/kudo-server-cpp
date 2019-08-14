@@ -352,3 +352,5 @@ MigrationBackup/
 .ionide/
 
 StaticRelease/
+
+*.lib

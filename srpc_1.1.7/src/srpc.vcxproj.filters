@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{3647c417-a08d-49f8-a2b6-96585d2189d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\srpc">
+      <UniqueIdentifier>{9874f21c-5c75-4039-b4ce-1d305de0316e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\srpc\config">
+      <UniqueIdentifier>{d848f384-03b5-4728-9f1e-0cffa6d26d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\srpc\detail">
+      <UniqueIdentifier>{561572e0-d154-46ee-a622-4abd4893e035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\srpc\utility">
+      <UniqueIdentifier>{1384f72e-c2af-48c3-b461-1603d4ecec16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="IBitStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="IByteStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OBitStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OByteStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RpcCommand.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RpcForwarder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RpcNetwork.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RpcReceiver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Unicode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\ContainerTypes.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\Exception.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\IStream.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\OStream.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\RpcContainers.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\RpcForwarder.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\RpcInterface.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\RpcNetwork.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\RpcP2p.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\RpcPacketType.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\RpcPrototype.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\RpcReceiver.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\RpcTypes.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\StreamBuffer.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\StreamFactory.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\StringTypes.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\Types.h">
+      <Filter>include\srpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\config\config.h">
+      <Filter>include\srpc\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\config\config_gcc.h">
+      <Filter>include\srpc\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\config\config_msvc.h">
+      <Filter>include\srpc\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\Allocator.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\ForwardingFunctors.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\IBitStream.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\IByteStream.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\Mutex.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\OBitStream.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\OByteStream.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\ReceivingFunctors.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\RpcCommand.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\RpcEvent.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\RpcForwarderDetail.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\RpcId.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\RpcInterfaceDetail.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\RpcPrototypeDetail.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\RpcReceiverDetail.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\TypeList.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\detail\VectorStreamBuffer.h">
+      <Filter>include\srpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\utility\Bits.h">
+      <Filter>include\srpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\utility\Endian.h">
+      <Filter>include\srpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\utility\Hash.h">
+      <Filter>include\srpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\utility\StlUtils.h">
+      <Filter>include\srpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\srpc\utility\Unicode.h">
+      <Filter>include\srpc\utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

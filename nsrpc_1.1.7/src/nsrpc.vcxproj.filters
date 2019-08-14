@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\p2p">
+      <UniqueIdentifier>{a4be259a-4308-4976-8a6a-0fc02840e5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{7e2b8554-c1e5-40e5-aba3-fd6a7ef4a044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nsrpc">
+      <UniqueIdentifier>{1ccc01b1-4a48-4867-80d9-2f10911e631e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nsrpc\detail">
+      <UniqueIdentifier>{9793d40b-63f5-485f-8c52-13f8f8c3159d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nsrpc\detail\rpc_interface">
+      <UniqueIdentifier>{501c326f-8d8d-4176-b88f-b9ef39f08073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nsrpc\config">
+      <UniqueIdentifier>{5c5654c7-ca8b-49de-add6-dfa5c3e656ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nsrpc\utility">
+      <UniqueIdentifier>{0e2810a5-cb07-4ee9-917c-fc3eaf8b5603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nsrpc\utility\detail">
+      <UniqueIdentifier>{337ce6f7-3c3c-4b85-8064-f8f707812810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nsrpc\p2p">
+      <UniqueIdentifier>{c415b63e-41f3-4fad-9e9d-91110c9ea987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nsrpc\p2p\detail">
+      <UniqueIdentifier>{5ea7ee25-8633-4140-a139-a224a4dff3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nsrpc\p2p\rpc_interface">
+      <UniqueIdentifier>{f15a0cb8-8540-4067-ab46-7b654e253aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nsrpc\p2p\server">
+      <UniqueIdentifier>{48767110-2c3e-4633-ae9b-8bcfbadc12a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AceUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CachedSessionManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSession.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="LogManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketCoder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketCoderFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketSeedExchanger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketSeedExchangerFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketSeedExchangerImpl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ProactorFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ProactorTask.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactorTask.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RpcClientSession.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RpcSession.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionAcceptor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionConnector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionRpcNetwork.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPtr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\AnonymousMessageManager.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\P2pEndpoint.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\P2pProtocol.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\P2pRpcNetwork.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\P2pSessionFactory.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\P2pSessionImpl.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\Peer.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\PeerCandidate.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\PeerManager.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\PeerTime.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\RelayServiceImpl.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\SimpleRelayService.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\StunServiceImpl.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p\SystemServiceImpl.cpp">
+      <Filter>src\p2p</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CsPacketCoder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketSeedExchangerImpl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\AnonymousMessageManager.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\P2pMessages.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\P2pPacketCoder.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\P2pSessionImpl.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\Peer.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\PeerCandidate.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\PeerManager.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\PeerMessageHandler.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\RelayServiceHandler.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\RelayServiceImpl.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\StunServiceHandler.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\StunServiceImpl.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\SystemService.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\SystemServiceHandler.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p\SystemServiceImpl.h">
+      <Filter>src\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\CachedSessionManager.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\PacketSeedExchanger.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\PacketSeedExchangerFactory.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\ProactorFactory.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\ProactorTask.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\ReactorTask.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\RpcClientSession.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\RpcSession.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\RpcSessionConfig.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\Session.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\SessionAcceptor.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\SessionConfig.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\SessionConnector.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\SessionFactory.h">
+      <Filter>include\nsrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\Asynch_RW.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\ClientSession.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\CsProtocol.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\MessageBlockProvider.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\MessageBlockStreamBuffer.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\PacketCoder.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\PacketCoderFactory.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\Protocol.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\SessionCreator.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\SessionDestroyer.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\SessionManager.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\SessionPool.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\SessionRpcNetwork.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\SessionRpcNetworkCallback.h">
+      <Filter>include\nsrpc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\detail\rpc_interface\SecurityService.h">
+      <Filter>include\nsrpc\detail\rpc_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\config\config.h">
+      <Filter>include\nsrpc\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\config\config_gcc.h">
+      <Filter>include\nsrpc\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\config\config_msvc.h">
+      <Filter>include\nsrpc\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\config\Proactor.h">
+      <Filter>include\nsrpc\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\utility\AceUtil.h">
+      <Filter>include\nsrpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\utility\Logger.h">
+      <Filter>include\nsrpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\utility\LogManager.h">
+      <Filter>include\nsrpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\utility\MemoryPool.h">
+      <Filter>include\nsrpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\utility\MessageBlockManager.h">
+      <Filter>include\nsrpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\utility\ObjectAllocator.h">
+      <Filter>include\nsrpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\utility\ObjectPool.h">
+      <Filter>include\nsrpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\utility\SmartPtr.h">
+      <Filter>include\nsrpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\utility\SystemUtil.h">
+      <Filter>include\nsrpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\utility\VariousMemoryAllocator.h">
+      <Filter>include\nsrpc\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\utility\detail\BaseAllocator.h">
+      <Filter>include\nsrpc\utility\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\P2pConfig.h">
+      <Filter>include\nsrpc\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\P2pEventHandler.h">
+      <Filter>include\nsrpc\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\P2pSession.h">
+      <Filter>include\nsrpc\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\P2pSessionFactory.h">
+      <Filter>include\nsrpc\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\PeerAddress.h">
+      <Filter>include\nsrpc\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\PeerHint.h">
+      <Filter>include\nsrpc\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\PeerId.h">
+      <Filter>include\nsrpc\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\PeerStats.h">
+      <Filter>include\nsrpc\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\detail\P2pAddress.h">
+      <Filter>include\nsrpc\p2p\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\detail\P2pEndpoint.h">
+      <Filter>include\nsrpc\p2p\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\detail\P2pPeerHint.h">
+      <Filter>include\nsrpc\p2p\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\detail\P2pProtocol.h">
+      <Filter>include\nsrpc\p2p\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\detail\P2pRpcNetwork.h">
+      <Filter>include\nsrpc\p2p\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\detail\P2pRpcTypes.h">
+      <Filter>include\nsrpc\p2p\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\detail\PeerCipherKeyCache.h">
+      <Filter>include\nsrpc\p2p\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\detail\PeerNetworkSender.h">
+      <Filter>include\nsrpc\p2p\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\detail\PeerNotifier.h">
+      <Filter>include\nsrpc\p2p\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\detail\PeerTime.h">
+      <Filter>include\nsrpc\p2p\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\rpc_interface\RelayService.h">
+      <Filter>include\nsrpc\p2p\rpc_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\rpc_interface\StunService.h">
+      <Filter>include\nsrpc\p2p\rpc_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nsrpc\p2p\server\SimpleRelayService.h">
+      <Filter>include\nsrpc\p2p\server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
